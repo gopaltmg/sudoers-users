@@ -1,3 +1,2 @@
 # sudoers-users
-To make user sudoers
-user is not sudoers
+user is not in the sudoers file
