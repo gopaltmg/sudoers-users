@@ -1,0 +1,9 @@
+# Re-configure the /etc/sudoers
+su
+adduser username sudo
+vi /etc/sudoers
+#assign the user in configuration
+
+## Same thing without a password
+# %wheel        ALL=(ALL)       NOPASSWD: ALL
+user         ALL=(ALL)       PASSWD: ALL #username is one that u want to add
